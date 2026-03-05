@@ -10,7 +10,7 @@ a2: float = 5.23 # float
 a3 = '5' #str String
 a4 = True # bool Boolean
 
-print( a1 + int(a3))
+# print( a1 + int(a3))
 
 # print(float(a1) + float(a3))
 
@@ -36,8 +36,13 @@ print( a1 + int(a3))
 
 # Отриманя даних
 
-num1 = int(input("Enter num 1: "))
-num2 = input("Enter num 2: ")
-print(num1 + int(num2))
-print(num1 ** int(num2))
-print(num1 // int(num2))
+# num1 = int(input("Enter num 1: "))
+# num2 = input("Enter num 2: ")
+# print(num1 + int(num2))
+# print(num1 ** int(num2))
+# print(num1 // int(num2))
+
+
+user = input("Enter you name: ")
+print("Hello", user)
+print(f"Hello, {user}!")
