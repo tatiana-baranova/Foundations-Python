@@ -19,8 +19,8 @@
 #Самостійна робота
 
 num1 = float(input("Enter the number 1 : "))
-num2 = float(input("Enter the number 2 : "))
 operation = input("Enter +, -, *, / ")
+num2 = float(input("Enter the number 2 : "))
 
 if operation == '+':
     result = num1 + num2
