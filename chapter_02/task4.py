@@ -63,3 +63,24 @@
 
 # res = ", ".join(newListHobbies)
 # print(res)
+
+#Самостійна робота
+
+marks = [85, 90, 78, 95, 88]
+
+for i in marks:
+    print(f'Оцінка: {i}')
+
+total = 0
+for i in marks:
+    total += i
+    average = total / len(marks)
+print(f"Середня оцінка: {average}")
+
+i = 0
+while i < len(marks):
+    marks[i] += 5
+    i += 1
+
+for i in marks:
+    print(f'Оцінка: {i}')
