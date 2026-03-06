@@ -44,18 +44,24 @@ data2 = dict(x=50, v=8, z=7, a=-10, d=20)
 # print(f"Min Element: {minElement}")
 
 
-def minimal(nums):
-    minElement = 1000
-    for v in nums.values():
-        if v < minElement:
-            minElement = v
-    # print(f"Min Element: {minElement}")
-    return minElement
+# def minimal(nums):
+#     minElement = 1000
+#     for v in nums.values():
+#         if v < minElement:
+#             minElement = v
+#     # print(f"Min Element: {minElement}")
+#     return minElement
 
-min1 = minimal(data1)
-min2 = minimal(data2)
+# min1 = minimal(data1)
+# min2 = minimal(data2)
 
-if min1 < min2: print(min1)
-else: print(min2)
+# if min1 < min2: print(min1)
+# else: print(min2)
+
+# Lambda 
+mul = lambda x, y: x * y
+print(mul(5,7))
+print(mul(3,5))
+
 
 
