@@ -33,3 +33,19 @@
 
 # # show()
 # profile()
+def multiply(x, y):
+    return x * y
+
+
+def double_result(func):
+    def wrapper(x, y):
+        result = func(x, y)
+        return result * 2
+    return wrapper
+
+@double_result
+def multiply(x, y):
+    return x * y
+
+result = multiply(6, 7)
+print(f"Результат множення з подвоєням: {result}")
