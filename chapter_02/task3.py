@@ -54,15 +54,47 @@
 
 #Самостійна робота
 
-colors = ('red', 'green', 'blue')
-fruits_set = {'apple', 'banana', 'orange'}
-ages = {'Anna': 25, 'Ivan': 30, 'Maria': 22}
+# colors = ('red', 'green', 'blue')
+# fruits_set = {'apple', 'banana', 'orange'}
+# ages = {'Anna': 25, 'Ivan': 30, 'Maria': 22}
 
-print(colors[1])
-colors += ('yellow',)
-print(colors)
-print(fruits_set)
-ages['Ivan'] = 32
-print(list(ages.keys()))
-fruits_set.remove('orange')
-print(ages.items())
+# print(colors[1])
+# colors += ('yellow',)
+# print(colors)
+# print(fruits_set)
+# ages['Ivan'] = 32
+# print(list(ages.keys()))
+# fruits_set.remove('orange')
+# print(ages.items())
+
+# data = {
+#     'question': ['Why', 'are', 'not', 'all'],
+#     'animals': {
+#         'birds': [
+#             {'name': 'birds'}
+#         ],
+#         'others': [
+#             [
+#                 {'name': 'flying'},
+#                 {'name': 'the'},
+#                 {'name': 'time'},
+#             ],
+#         ],
+#     },
+#     'parts': {
+#         'question': '?'
+#     }
+# }
+
+
+# result = [
+#     data['question'][0],                
+#     data['animals']['birds'][0]['name'],
+#     data['question'][1],                
+#     data['question'][2],                
+#     data['animals']['others'][0][0]['name'],
+#     data['question'][3],                
+#     data['animals']['others'][0][1]['name'],
+#     data['animals']['others'][0][2]['name'] + data['parts']['question'] 
+# ]
+# print(" ".join(result))

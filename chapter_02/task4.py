@@ -66,21 +66,35 @@
 
 #Самостійна робота
 
-marks = [85, 90, 78, 95, 88]
+# marks = [85, 90, 78, 95, 88]
 
-for i in marks:
-    print(f'Оцінка: {i}')
+# for i in marks:
+#     print(f'Оцінка: {i}')
 
-total = 0
-for i in marks:
-    total += i
-    average = total / len(marks)
-print(f"Середня оцінка: {average}")
+# total = 0
+# for i in marks:
+#     total += i
+#     average = total / len(marks)
+# print(f"Середня оцінка: {average}")
 
-i = 0
-while i < len(marks):
-    marks[i] += 5
-    i += 1
+# i = 0
+# while i < len(marks):
+#     marks[i] += 5
+#     i += 1
 
-for i in marks:
-    print(f'Оцінка: {i}')
+# for i in marks:
+#     print(f'Оцінка: {i}')
+
+# Приклад дз
+# lis = [
+#     ["Some", "cool", "data"], 
+#     [54, 6], 
+#     [-3, 0, 5.6, 4, 33, 19]
+# ]
+# result = []
+
+# for sublist in lis:
+#     for item in sublist:
+#         result.append(str(item))
+
+# print(" ".join(result))

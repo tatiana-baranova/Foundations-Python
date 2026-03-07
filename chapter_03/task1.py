@@ -66,12 +66,12 @@ data2 = dict(x=50, v=8, z=7, a=-10, d=20)
 
 # Самостійна робота
 
-# def multiply(x, v):
-#     print(x * v)
-# multiply(5, 3)
+def multiply(x, v):
+    print(x * v)
+multiply(5, 3)
 
-# def greet(name, age):
-#     return f"Hello {name}! You {age}."
+def greet(name, age):
+    return f"Hello {name}! You {age}."
 
-# result_greet = greet("Anna", 25)
-# print(result_greet)
+result_greet = greet("Anna", 25)
+print(result_greet)
